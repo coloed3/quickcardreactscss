@@ -1,0 +1,40 @@
+.header {
+    background: url('https://www.adorama.com/alc/wp-content/uploads/2017/09/shutterstock_473837794.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+
+
+    .header-container {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 100px;
+        right: -25%;
+        padding: 22px 30px;
+        background: rgba(0, 0, 0, .5);
+        width: 50%;
+
+        .header-title {
+            color: white;
+
+            h1 {
+                font-family: 'Fjalla One',
+                    sans-serif;
+                font-size: 48px;
+                text-align: center;
+            }
+
+            .header-subtitle {
+                p {
+                    font-family: 'Noto Sans',
+                        sans-serif;
+                    font-size: 15px;
+                    text-align: center;
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+}
